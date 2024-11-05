@@ -17,6 +17,7 @@ const users = [
     name: "ANu",
   },
 ];
+
 app.get("/users", (req, res) => {
   const token = req.headers.authorization;
   console.log(token);
